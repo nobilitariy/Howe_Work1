@@ -1,5 +1,5 @@
-﻿{
-Console.WriteLine($"Enter the number corresponding to the day of the week(for example)
+﻿
+Console.WriteLine($"Enter the number corresponding to the day of the week(1-mon,2-tusd)");
 
 
 int NumDaysWeak = Convert.ToInt32(Console.ReadLine());
@@ -27,7 +27,8 @@ switch(NumDaysWeak)
         Console.WriteLine("yes");
         break;
     default:
-        Console.WriteLine("Enter the number corresponding to the day of the week");
+        Console.WriteLine("Enter the number corresponding to the day of the week(1-mon,2-tusd)");
+        break;
 }
 
 
